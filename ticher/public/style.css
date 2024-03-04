@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* переменные для быстрого изменения главных цветов */
+:root{
+    --main-bg-color: green;
+    --body-bg-color: rgb(0, 71, 0);
+    --text-color-var: black;
+}
+/* переменные для быстрого изменения главных цветов (конец)*/
+/*  стилистика шапки кнопок и ссылок */
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    background-color: rgb(255, 255, 255);
+
+}
+header div a{
+    text-decoration: none;
+    color: var(--text-color-var);
+    font-size: 20px;
+}
+header div a:hover ,header div a:focus{
+   color: orange;
+   transition: all 1s ease;
+}
+header div nav{
+   display: flex;
+   gap: 50px;
+   background-color: rgb(255, 255, 255);
+}
+body{
+    background-image: url(./img/1674610760_top-fon-com-p-fon-dlya-prezentatsii-barkhat-155.jpg);
+    background-position: center;  
+}
+.intro_ssit_bg{
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.intro_title{
+    color: white;
+}
+.intro_title h1{
+    margin-bottom: 15px;
+}
+.intro_title p{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+}
